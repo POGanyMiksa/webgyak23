@@ -17,14 +17,16 @@ h2 {
 
 #fuggveny {
     text-align: left;
+    text-decoration: none;
+    font-size: 1em;
 }
 
 #cimkontener {
-    background-image: url(https://img.magnific.com/free-vector/low-poly-white-background-design_1017-33204.jpg?semt=ais_hybrid&w=740&q=80);
-    background-repeat: repeat-x; 
+    background-image: url(https://img.magnific.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: repeat-x ;
 }
 
 #mainkontener {
-    background-image: url(https://www.shutterstock.com/shutterstock/videos/27100645/thumb/1.jpg?ip=x480);
+    background-image: url(https://img.magnific.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg?semt=ais_hybrid&w=740&q=80);
     background-repeat: repeat-x;
 }

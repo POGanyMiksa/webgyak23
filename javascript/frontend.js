@@ -44,9 +44,10 @@ else if (nap === 7) {
 
 const mainkontener = document.createElement("div");
 mainkontener.id = "mainkontener"
-mainkontener.className = "container-fluid bg-primary";
+mainkontener.className = "container-fluid";
 
 const baloszlop = document.createElement("row");
+baloszlop.id = "baloszlop"
 baloszlop.className = "col-sm-6";
 
 const mainfocim = document.createElement("h2");
@@ -60,11 +61,7 @@ A tangens és kotangens függvényeket a szinusz és koszinusz hányadosaként d
 
 A trigonometria legalapvetőbb összefüggése a Pitagorasz-tételből származó trigonometrikus egyes, amely szerint minden valós ikszre a szinusz negyzet iksz meg a koszinusz negyzet iksz összege egyenlő eggyel. Emellett a tangens és kotangens szorzata az értelmezési tartományuk közös részén mindig eggyel egyenlő. A nevezetes szögek esetén, mint a nulla, a harminc fok, a negyvenöt fok, a hatvan fok és a kilencven fok, a függvényértékek pontos gyökös alakban fejezhetők ki; például a szinusz és a koszinusz értéke negyvenöt foknál egyaránt gyök kettő per kettő, míg a tangens értéke ugyanitt pontosan egy.`
 
-const kep = document.createElement("img");
-kep.src = "./img/images (4).jpg";
-kep.alt = "A képet nem sikerült megjeleníteni"
-
 cimkontener.append(cimsor, focim, alcim, bevezetes);
 baloszlop.append(mainfocim, fuggveny);
-mainkontener.append(baloszlop, kep);
+mainkontener.append(baloszlop);
 document.body.append(cimkontener, mainkontener);
