@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://wallpapers.com/images/hd/wise-trigonometry-illustration-on-blue-background-79lhbt8hpgcrud2o.jpg);
+    background-attachment: fixed;
+}
+
+p {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#fuggveny {
+    text-align: left;
+}
+
+#cimkontener {
+    background-image: url(https://img.magnific.com/free-vector/low-poly-white-background-design_1017-33204.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: repeat-x; 
+}
+
+#mainkontener {
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/27100645/thumb/1.jpg?ip=x480);
+    background-repeat: repeat-x;
+}
