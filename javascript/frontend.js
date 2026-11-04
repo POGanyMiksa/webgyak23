@@ -18,7 +18,7 @@ const nap = most.getDate();
 
 const bevezetes = document.createElement("p");
 bevezetes.id = "bevezetes"
-bevezetes.textContent = `A trigonometria a matematika azon ága, amely a háromszögek oldalai és szögei közötti összefüggéseket vizsgálja. (A szó a görög trigonon = háromszög és metron = mérés szavak összetételéből származik.) Lényegében azt mutatja meg, hogyan tudjuk kiszámolni egy háromszög ismeretlen oldalait vagy szögeit, ha van elegendő kiinduló adatunk.`;
+bevezetes.textContent = `,,A geometria az a művészet, amely hibás rajzokból helyes következtetéseket von le"`
 
 if (nap === 1) {
     alcim.textContent = "Kellemes Hétfőt kívánok";
@@ -61,7 +61,24 @@ A tangens és kotangens függvényeket a szinusz és koszinusz hányadosaként d
 
 A trigonometria legalapvetőbb összefüggése a Pitagorasz-tételből származó trigonometrikus egyes, amely szerint minden valós ikszre a szinusz negyzet iksz meg a koszinusz negyzet iksz összege egyenlő eggyel. Emellett a tangens és kotangens szorzata az értelmezési tartományuk közös részén mindig eggyel egyenlő. A nevezetes szögek esetén, mint a nulla, a harminc fok, a negyvenöt fok, a hatvan fok és a kilencven fok, a függvényértékek pontos gyökös alakban fejezhetők ki; például a szinusz és a koszinusz értéke negyvenöt foknál egyaránt gyök kettő per kettő, míg a tangens értéke ugyanitt pontosan egy.`
 
+
+
+
+const kep = document.createElement("img");
+kep.id = "kep"
+kep.style.maxWidth ="30em"
+kep.style.float = "right"
+kep.src ="./img/images (4).jpg";
+kep.className = "mx-auto d-block img-thumbnail"
+
+const kep2 = document.createElement("img");
+kep2.id = "kep2"
+kep2.style.maxWidth = "30em"
+kep2.style.float = "left"
+kep2.src = "./img/ycotx6323469488230595374.jpg";
+kep2.className = "float-start img-thumbnail"
+
 cimkontener.append(cimsor, focim, alcim, bevezetes);
 baloszlop.append(mainfocim, fuggveny);
 mainkontener.append(baloszlop);
-document.body.append(cimkontener, mainkontener);
+document.body.append(cimkontener, mainkontener, kep, kep2);
